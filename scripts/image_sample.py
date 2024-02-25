@@ -86,8 +86,7 @@ def main():
 
     
     for i, data in enumerate(dataloader):
-        if i  == 2:
-            break
+        
         x0_image = data[0]
         
         x0 = x0_image.to(dist_util.dev()) * 2 -1
