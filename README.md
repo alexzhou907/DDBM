@@ -26,7 +26,7 @@ We provide pretrained checkpoints via Huggingface repo [here](https://huggingfac
 
 # Datasets
 
-For Edges2Handbags, please follow instructions from [here](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/blob/master/docs/datasets.md)).
+For Edges2Handbags, please follow instructions from [here](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/blob/master/docs/datasets.md).
 For DIODE, please download appropriate datasets from [here](https://diode-dataset.org/).
 
 
