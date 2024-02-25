@@ -26,7 +26,7 @@ We provide pretrained checkpoints via Huggingface repo [here](https://huggingfac
 
 # Datasets
 
-For Edges2Handbags, please follow instructions from [here]([Edges2Handbags](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/blob/master/docs/datasets.md)).
+For Edges2Handbags, please follow instructions from [here](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/blob/master/docs/datasets.md)).
 For DIODE, please download appropriate datasets from [here](https://diode-dataset.org/).
 
 
@@ -94,7 +94,7 @@ You may wish to try to narrow down the problem;
 
 In this case, you can try adding `--mca btl vader,self` to `mpiexec` command before `python` run.
 
-During evaluation, if you see significantly high LPIPS of MSE scores, this is likely due to mismatch in order between your generation and the reference stats. This may be due to the multiprocess gathering of results returning the incorrect order. Please make sure the order is correct for your generation, or regenerate the reference stats by yourself.
+During evaluation, if you see significantly high LPIPS or MSE scores, this is likely due to mismatch in order between your generation and the reference stats. This may be due to the multiprocess gathering of results returning the incorrect order. Please make sure the order is correct for your generation, or regenerate the reference stats by yourself.
 
 
 # Citation
