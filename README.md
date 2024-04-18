@@ -1,4 +1,4 @@
-# Denoising Diffusion Bridge Models
+# Denoising Diffusion Bridge Models (ICLR 2024)
 
 Official Implementation of [Denoising Diffusion Bridge Models](https://arxiv.org/abs/2309.16948). 
 
